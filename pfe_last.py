@@ -1103,7 +1103,7 @@ gnr= st.sidebar.slider("Nombre de Génération", 1, 20, 2, 1)
 prm= st.sidebar.slider("Probabilité de Mutation", 0., .2, .05, .05)
 prc = st.sidebar.slider("Probabilité de Croisement", 0., 1., .75, .05)
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
+#st.set_option('deprecation.showfileUploaderEncoding', False)
 data_file = st.file_uploader("Vous pouvez charger les images au format brut ou PNG")
 
 p=["","head","isola","knee","noise","spiral","shear","longs"]
