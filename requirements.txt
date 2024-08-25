@@ -1,6 +1,5 @@
 tornado==6.3.3
 streamlit==1.0.0
-numpy==1.21.0 --only-binary :all:
+numpy==2.1.0
 setuptools>=42
 pip>=24.2
-distutils
