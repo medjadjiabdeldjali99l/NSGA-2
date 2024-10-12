@@ -6,3 +6,4 @@ pip>=24.2
 protobuf==3.20.3
 altair==4.2.0 
 opencv-python-headless
+matplotlib
